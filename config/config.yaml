@@ -1,0 +1,11 @@
+project_name: retail-data-platform
+
+paths:
+  raw: data/raw
+  bronze: data/bronze
+  silver: data/silver
+  gold: data/gold
+  bad_records: data/bad_records
+
+database:
+  sqlite_db: warehouse.db

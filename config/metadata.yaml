@@ -1,0 +1,13 @@
+tables:
+
+  customers:
+    primary_key: customer_id
+
+  products:
+    primary_key: product_id
+
+  orders:
+    primary_key: order_id
+
+  order_items:
+    primary_key: order_item_id
